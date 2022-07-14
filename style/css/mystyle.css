@@ -1,0 +1,135 @@
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+#text-home {
+  font-size:80px;
+  margin-top: -80px;
+  text-shadow: 3px 3px 8px #000000;
+}
+#text-home1 {
+  font-size:medium;
+  text-shadow: 3px 3px 8px #000000;
+}
+#card_galeri{
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  margin: 10px;
+}
+#galeri_gambar{
+  width:285px;
+  height:227px;
+}
+#logosmp1{
+  width: 260px;
+  margin-top: -400px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9;
+}
+
+.slider_text{
+  position: relative;
+  z-index:1;
+}
+
+.jumbotron {
+  background-image:url('../img/bgsekolah.jpg');
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+.jumbotron::after{
+  content:'';
+  display:block;
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2));
+  position:absolute;
+}
+
+.bradcam_text{
+  text-shadow: 3px 3px 8px #000000;
+}
+.btnlokasi{
+  visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 990px) {
+  #text-home {
+    font-size:30px;
+    text-shadow: 2px 2px 8px #000000;
+    margin-top: 40px;
+  }
+  #text-home1 {
+    font-size:medium;
+    text-shadow: 2px 2px 8px #000000;
+  }
+  #card_galeri{
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-left: 38px;
+    margin-top: 20px;
+  }
+  #logosmp1{
+    width: 100px;
+    margin-top: -240px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+  }
+
+  #karosel{
+    background-image: url("../img/bgsekolah.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+  }
+
+  .slider_text{
+    margin-top: -100px;
+  }
+
+  footer{
+    justify-content: center;
+  }
+
+  .contact-section{
+    height: 300px;
+  }
+  .btnlokasi{
+    visibility: visible;
+    margin-left: 110px;
+    margin-top: 40px;
+  }
+}
+
+/* @media screen and (min-width: 300px) {
+  #text-home {
+    font-size:30px;
+    text-shadow: 2px 2px 8px #000000;
+    margin-top: 40px;
+  }
+  #text-home1 {
+    font-size:medium;
+    text-shadow: 2px 2px 8px #000000;
+  }
+  #card_galeri{
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 10px rgb(90, 90, 90);
+    box-shadow: 0 0 10px rgb(90, 90, 90);
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  #logosmp1{
+    width: 100px;
+    margin-top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+  }
+} */
